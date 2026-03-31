@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;400&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Geometric swordfish/blade icon -->
+  <g transform="translate(200, 160)">
+    <!-- The blade is composed of faceted crystal-like segments pointing upper-right -->
+    <!-- Main upper-left spike (the "bill" tip) -->
+    <polygon points="-10,-130 0,-95 -20,-80" fill="#00E5FF"/>
+    <!-- Upper blade facet - bright cyan -->
+    <polygon points="0,-95 25,-55 -5,-50 -20,-80" fill="#00E5FF"/>
+    <!-- Right upper facet - slightly darker -->
+    <polygon points="25,-55 50,-10 10,-5 -5,-50" fill="#00D4EC"/>
+    <!-- Left mid facet - medium teal -->
+    <polygon points="-20,-80 -5,-50 -25,-20 -40,-50" fill="#00C8DB"/>
+    <!-- Center facet - bright -->
+    <polygon points="-5,-50 10,-5 -10,5 -25,-20" fill="#00E5FF"/>
+    <!-- Lower right facet -->
+    <polygon points="50,-10 65,30 25,40 10,-5" fill="#00BCD4"/>
+    <!-- Lower center facet -->
+    <polygon points="10,-5 25,40 5,50 -10,5" fill="#00D4EC"/>
+    <!-- Left lower facet -->
+    <polygon points="-25,-20 -10,5 -30,15 -45,0" fill="#00B8D0"/>
+    <!-- Bottom facet - darkest for depth -->
+    <polygon points="-10,5 5,50 -15,45 -30,15" fill="#00ACC1"/>
+    <!-- Bottom-right extension -->
+    <polygon points="25,40 40,60 15,65 5,50" fill="#00ACC1"/>
+    <!-- Small bottom tip -->
+    <polygon points="5,50 15,65 0,60" fill="#009EAF"/>
+  </g>
+
+  <!-- XIPHIAS text - bold -->
+  <text x="200" y="350" text-anchor="middle"
+        font-family="Inter, 'Segoe UI', Arial, sans-serif"
+        font-weight="700" font-size="52" fill="#0a1628"
+        letter-spacing="4">XIPHIAS</text>
+
+  <!-- TECH text - regular weight, slightly smaller -->
+  <text x="200" y="395" text-anchor="middle"
+        font-family="Inter, 'Segoe UI', Arial, sans-serif"
+        font-weight="400" font-size="36" fill="#0a1628"
+        letter-spacing="8">TECH</text>
+</svg>
