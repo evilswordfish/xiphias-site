@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xiphias Tech — Software Development &amp; IT Consulting</title>
+  <meta name="description" content="Belgium-based software development and IT consulting.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+  <!-- Section 1: Top Bar -->
+  <header class="top-bar">
+    <div class="logo">
+      <img src="logo.svg" alt="Xiphias Tech" class="logo-icon">
+      <span class="logo-text">XIPHIAS <span class="logo-accent">TECH</span></span>
+    </div>
+    <button class="lang-toggle" onclick="toggleLang()" aria-label="Switch language">
+      <span data-lang="en">NL</span>
+      <span data-lang="nl">EN</span>
+    </button>
+  </header>
+
+  <!-- Section 2: Hero -->
+  <section class="hero">
+    <div class="hero-label">SOFTWARE DEVELOPMENT</div>
+    <h1 class="hero-title">&amp; IT Consulting</h1>
+    <p class="hero-subtitle" data-lang="en">Based in Belgium. Building reliable software and solving technical problems.</p>
+    <p class="hero-subtitle" data-lang="nl">Gevestigd in België. Betrouwbare software bouwen en technische problemen oplossen.</p>
+  </section>
+
+  <!-- Section 3: Highlights Bar -->
+  <section class="highlights">
+    <div class="highlight">
+      <span class="highlight-label">Infrastructure</span>
+      <span class="highlight-sub" data-lang="en">Core expertise</span>
+      <span class="highlight-sub" data-lang="nl">Kernexpertise</span>
+    </div>
+    <div class="highlight-divider"></div>
+    <div class="highlight">
+      <span class="highlight-label">Full-Stack</span>
+      <span class="highlight-sub">Web &amp; Mobile</span>
+    </div>
+    <div class="highlight-divider"></div>
+    <div class="highlight">
+      <span class="highlight-label">BE</span>
+      <span class="highlight-sub" data-lang="en">Based</span>
+      <span class="highlight-sub" data-lang="nl">Gevestigd</span>
+    </div>
+  </section>
+
+  <!-- Section 4: Services Grid -->
+  <section class="services">
+    <div class="service-card">
+      <span class="service-num">01</span>
+      <h3 class="service-name">Infrastructure</h3>
+      <p class="service-desc" data-lang="en">Cloud, servers &amp; networking</p>
+      <p class="service-desc" data-lang="nl">Cloud, servers &amp; netwerken</p>
+    </div>
+    <div class="service-card">
+      <span class="service-num">02</span>
+      <h3 class="service-name">IT Consulting</h3>
+      <p class="service-desc" data-lang="en">Technical strategy &amp; guidance</p>
+      <p class="service-desc" data-lang="nl">Technische strategie &amp; advies</p>
+    </div>
+    <div class="service-card">
+      <span class="service-num">03</span>
+      <h3 class="service-name">Automation</h3>
+      <p class="service-desc" data-lang="en">Workflows &amp; integrations</p>
+      <p class="service-desc" data-lang="nl">Workflows &amp; integraties</p>
+    </div>
+    <div class="service-card">
+      <span class="service-num">04</span>
+      <h3 class="service-name">App Development</h3>
+      <p class="service-desc" data-lang="en">Mobile &amp; web applications</p>
+      <p class="service-desc" data-lang="nl">Mobiele &amp; webapplicaties</p>
+    </div>
+  </section>
+
+  <!-- Section 5: About -->
+  <section class="about">
+    <div class="section-label">ABOUT</div>
+    <p class="about-text" data-lang="en">Xiphias Tech is a Belgium-based software development and IT consulting company. We build applications, solve technical challenges, and help businesses make the most of their technology.</p>
+    <p class="about-text" data-lang="nl">Xiphias Tech is een Belgisch bedrijf gespecialiseerd in softwareontwikkeling en IT-consultancy. Wij bouwen applicaties, lossen technische uitdagingen op en helpen bedrijven het meeste uit hun technologie te halen.</p>
+  </section>
+
+  <!-- Section 6: Contact Footer -->
+  <footer class="contact">
+    <div class="section-label">GET IN TOUCH</div>
+    <a href="mailto:contact@xiphias.be" class="contact-email">contact@xiphias.be</a>
+    <div class="copyright">© 2026 Xiphias Tech · xiphias.be</div>
+  </footer>
+
+  <script>
+    function toggleLang() {
+      const html = document.documentElement;
+      const current = html.getAttribute('data-lang');
+      const next = current === 'en' ? 'nl' : 'en';
+      html.setAttribute('data-lang', next);
+      html.setAttribute('lang', next);
+      localStorage.setItem('xiphias-lang', next);
+    }
+    // Restore saved preference
+    const saved = localStorage.getItem('xiphias-lang');
+    if (saved) {
+      document.documentElement.setAttribute('data-lang', saved);
+      document.documentElement.setAttribute('lang', saved);
+    }
+  </script>
+</body>
+</html>
