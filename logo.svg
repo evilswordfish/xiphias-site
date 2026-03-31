@@ -1,14 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
-  <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;400&amp;display=swap');
-    </style>
-  </defs>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" width="200" height="250">
   <!-- Geometric swordfish/blade icon -->
-  <g transform="translate(200, 160)">
-    <!-- The blade is composed of faceted crystal-like segments pointing upper-right -->
-    <!-- Main upper-left spike (the "bill" tip) -->
+  <g transform="translate(100, 130)">
+    <!-- Upper spike tip -->
     <polygon points="-10,-130 0,-95 -20,-80" fill="#00E5FF"/>
     <!-- Upper blade facet - bright cyan -->
     <polygon points="0,-95 25,-55 -5,-50 -20,-80" fill="#00E5FF"/>
@@ -31,16 +24,4 @@
     <!-- Small bottom tip -->
     <polygon points="5,50 15,65 0,60" fill="#009EAF"/>
   </g>
-
-  <!-- XIPHIAS text - bold -->
-  <text x="200" y="350" text-anchor="middle"
-        font-family="Inter, 'Segoe UI', Arial, sans-serif"
-        font-weight="700" font-size="52" fill="#0a1628"
-        letter-spacing="4">XIPHIAS</text>
-
-  <!-- TECH text - regular weight, slightly smaller -->
-  <text x="200" y="395" text-anchor="middle"
-        font-family="Inter, 'Segoe UI', Arial, sans-serif"
-        font-weight="400" font-size="36" fill="#0a1628"
-        letter-spacing="8">TECH</text>
 </svg>
