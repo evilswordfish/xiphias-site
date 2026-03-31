@@ -1,27 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250" width="200" height="250">
-  <!-- Geometric swordfish/blade icon -->
-  <g transform="translate(100, 130)">
-    <!-- Upper spike tip -->
-    <polygon points="-10,-130 0,-95 -20,-80" fill="#00E5FF"/>
-    <!-- Upper blade facet - bright cyan -->
-    <polygon points="0,-95 25,-55 -5,-50 -20,-80" fill="#00E5FF"/>
-    <!-- Right upper facet - slightly darker -->
-    <polygon points="25,-55 50,-10 10,-5 -5,-50" fill="#00D4EC"/>
-    <!-- Left mid facet - medium teal -->
-    <polygon points="-20,-80 -5,-50 -25,-20 -40,-50" fill="#00C8DB"/>
-    <!-- Center facet - bright -->
-    <polygon points="-5,-50 10,-5 -10,5 -25,-20" fill="#00E5FF"/>
-    <!-- Lower right facet -->
-    <polygon points="50,-10 65,30 25,40 10,-5" fill="#00BCD4"/>
-    <!-- Lower center facet -->
-    <polygon points="10,-5 25,40 5,50 -10,5" fill="#00D4EC"/>
-    <!-- Left lower facet -->
-    <polygon points="-25,-20 -10,5 -30,15 -45,0" fill="#00B8D0"/>
-    <!-- Bottom facet - darkest for depth -->
-    <polygon points="-10,5 5,50 -15,45 -30,15" fill="#00ACC1"/>
-    <!-- Bottom-right extension -->
-    <polygon points="25,40 40,60 15,65 5,50" fill="#00ACC1"/>
-    <!-- Small bottom tip -->
-    <polygon points="5,50 15,65 0,60" fill="#009EAF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" width="200" height="280">
+  <!--
+    Xiphias Tech logo icon
+    Geometric crystal/swordfish blade with two upper spikes
+    and a faceted gem body. Based on brand mockup.
+  -->
+
+  <!-- Rotate the whole shape ~30° to point upper-right like the original -->
+  <g transform="translate(100, 145) rotate(-25)">
+
+    <!-- RIGHT SPIKE (the "bill" — tallest, pointing up-right) -->
+    <polygon points="5,-135 15,-90 -5,-85" fill="#00E5FF"/>
+
+    <!-- LEFT SPIKE (secondary fin, shorter, pointing up-left) -->
+    <polygon points="-30,-95 -18,-70 -38,-62" fill="#4DE8FF"/>
+
+    <!-- UPPER CONNECTING FACET (between the two spikes) -->
+    <polygon points="-5,-85 15,-90 10,-55 -18,-70" fill="#00D6F0"/>
+
+    <!-- LEFT BODY FACET (upper-left of crystal body) -->
+    <polygon points="-18,-70 -38,-62 -50,-25 -25,-15 10,-55" fill="#00E5FF"/>
+
+    <!-- RIGHT BODY FACET (upper-right of crystal body) -->
+    <polygon points="10,-55 15,-90 30,-40 35,-5 5,-10" fill="#00CCE0"/>
+
+    <!-- CENTER BODY FACET -->
+    <polygon points="-25,-15 10,-55 5,-10" fill="#00D6F0"/>
+
+    <!-- LOWER-RIGHT FACET -->
+    <polygon points="5,-10 35,-5 30,35 0,40" fill="#00B8D0"/>
+
+    <!-- LOWER-LEFT FACET -->
+    <polygon points="-50,-25 -25,-15 -15,30 -40,20" fill="#00BBCF"/>
+
+    <!-- BOTTOM-CENTER FACET -->
+    <polygon points="-25,-15 5,-10 0,40 -15,30" fill="#00A8C0"/>
+
+    <!-- BOTTOM TIP -->
+    <polygon points="-15,30 0,40 -10,55 -20,40" fill="#009DB5"/>
+
+    <!-- BOTTOM-RIGHT EXTENSION -->
+    <polygon points="0,40 30,35 20,55 -10,55" fill="#009DB5"/>
+
   </g>
 </svg>

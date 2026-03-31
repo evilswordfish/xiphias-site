@@ -1,27 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- Geometric swordfish/blade icon - favicon version -->
-  <g transform="translate(32, 35)">
-    <!-- Upper spike tip -->
-    <polygon points="-3,-30 0,-22 -5,-19" fill="#00E5FF"/>
-    <!-- Upper blade facet -->
-    <polygon points="0,-22 6,-13 -1,-12 -5,-19" fill="#00E5FF"/>
-    <!-- Right upper facet -->
-    <polygon points="6,-13 12,-2 3,-1 -1,-12" fill="#00D4EC"/>
-    <!-- Left mid facet -->
-    <polygon points="-5,-19 -1,-12 -6,-5 -10,-12" fill="#00C8DB"/>
-    <!-- Center facet -->
-    <polygon points="-1,-12 3,-1 -2,1 -6,-5" fill="#00E5FF"/>
-    <!-- Lower right facet -->
-    <polygon points="12,-2 16,7 6,10 3,-1" fill="#00BCD4"/>
-    <!-- Lower center facet -->
-    <polygon points="3,-1 6,10 1,12 -2,1" fill="#00D4EC"/>
-    <!-- Left lower facet -->
-    <polygon points="-6,-5 -2,1 -7,4 -11,0" fill="#00B8D0"/>
-    <!-- Bottom facet -->
-    <polygon points="-2,1 1,12 -4,11 -7,4" fill="#00ACC1"/>
-    <!-- Bottom-right extension -->
-    <polygon points="6,10 10,15 4,16 1,12" fill="#00ACC1"/>
-    <!-- Small bottom tip -->
-    <polygon points="1,12 4,16 0,15" fill="#009EAF"/>
+  <g transform="translate(32, 34) rotate(-25) scale(0.23)">
+    <polygon points="5,-135 15,-90 -5,-85" fill="#00E5FF"/>
+    <polygon points="-30,-95 -18,-70 -38,-62" fill="#4DE8FF"/>
+    <polygon points="-5,-85 15,-90 10,-55 -18,-70" fill="#00D6F0"/>
+    <polygon points="-18,-70 -38,-62 -50,-25 -25,-15 10,-55" fill="#00E5FF"/>
+    <polygon points="10,-55 15,-90 30,-40 35,-5 5,-10" fill="#00CCE0"/>
+    <polygon points="-25,-15 10,-55 5,-10" fill="#00D6F0"/>
+    <polygon points="5,-10 35,-5 30,35 0,40" fill="#00B8D0"/>
+    <polygon points="-50,-25 -25,-15 -15,30 -40,20" fill="#00BBCF"/>
+    <polygon points="-25,-15 5,-10 0,40 -15,30" fill="#00A8C0"/>
+    <polygon points="-15,30 0,40 -10,55 -20,40" fill="#009DB5"/>
+    <polygon points="0,40 30,35 20,55 -10,55" fill="#009DB5"/>
   </g>
 </svg>
